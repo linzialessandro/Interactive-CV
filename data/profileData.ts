@@ -3,7 +3,7 @@ import { ProfileData } from '../types';
 export const profileData: ProfileData = {
   name: 'Alessandro Linzi',
   title: 'Mathematician | Research Scientist',
-  summary: 'Mathematician specializing in hypercompositional algebra, model theory, and valuation theory with experience in international research environments. Published author with 9 peer-reviewed publications in mathematical journals. Interested in the intersection of pure mathematics and computational applications, including AI logical reasoning and proof assistants. Seeking research opportunities that combine theoretical mathematics with practical implementation.',
+  summary: 'Mathematician specializing in hypercompositional algebra, model theory, and valuation theory with experience in international research environments. Published author with 10 peer-reviewed publications in mathematical journals. Interested in the intersection of pure mathematics and computational applications, including AI logical reasoning and proof assistants. Seeking research opportunities that combine theoretical mathematics with practical implementation.',
   experience: [
     {
       title: 'Mathematics Teacher',
@@ -22,6 +22,7 @@ export const profileData: ProfileData = {
         'Conducted research resulting in 8 peer-reviewed publications and 5 submissions.',
         'Achieved habilitation as Assistant in Mathematics in Slovenia.',
         'Served as editor and peer reviewer for mathematical journals.',
+        'Participated in promotion activities for School of Engineering and Management.',
         'Co-authored textbook: “Mathematics for Engineering and Management” (ISBN: 978-961-7025-41-5).',
       ],
     },
@@ -48,16 +49,34 @@ export const profileData: ProfileData = {
   ],
   education: [
     {
+        degree: 'AI avanzata (Summer Camp 2025)',
+        institution: 'Profession AI',
+        period: '2025',
+        details: '7-hour advanced AI course.'
+    },
+    {
+        degree: 'Programmazione con Python (Summer Camp 2025)',
+        institution: 'Profession AI',
+        period: '2025',
+        details: '15-hour Python programming course.'
+    },
+    {
+        degree: 'Erasmus+ Teaching Program Participant',
+        institution: 'Montenegro',
+        period: '2023 - 2025',
+        details: 'International teaching program.'
+    },
+    {
       degree: 'PhD in Mathematics',
       institution: 'University of Szczecin, Poland',
       period: '2018 - 2022',
-      details: 'Dissertation: “Algebraic hyperstructures in the model theory of valued fields"',
+      details: 'Dissertation: “Algebraic hyperstructures in the model theory of valued fields". Award: EU Co-funded PhD Scholarship & Outstanding Student Salary Compensation.',
     },
     {
       degree: 'Master\'s in Mathematics (Didactical Curriculum), 110/110 Cum Laude',
       institution: 'University of Florence, Italy',
       period: '2016 - 2018',
-      details: 'Thesis: "The Theorem of Ax-Kochen-Ershov"',
+      details: 'Thesis: "The Theorem of Ax-Kochen-Ershov". Award: University prize for exceptional performance.',
     },
     {
       degree: 'Bachelor\'s in Mathematics, 101/110',
@@ -69,10 +88,15 @@ export const profileData: ProfileData = {
       degree: 'International Exchange Program',
       institution: 'AFS Costa Rica',
       period: '2008 - 2009',
-      details: '6-month intercultural immersion program during high school.',
+      details: '6-month intercultural immersion program during high school. Award: AFS Intercultural Exchange Scholarship.',
     },
   ],
   publications: [
+      {
+          title: 'Hypervaluations on hyperfields and ordered canonical hypergroups',
+          outlet: 'Iranian J. of mathematical sciences and informatics',
+          date: '2025',
+      },
       {
           title: 'On the hyperfields associated to valued fields',
           outlet: 'Journal of Pure and Applied Algebra',
@@ -118,12 +142,31 @@ export const profileData: ProfileData = {
           outlet: 'J. of fixed point theory and applications, Vol. 21, No. 98',
           date: '2019',
       },
+      {
+          title: 'On algebraically closed Krasner hyperfields',
+          outlet: 'Italian Journal of Pure and Applied Mathematics',
+          date: 'Accepted',
+      },
+      {
+          title: 'L-mosaics and orthomodular lattices',
+          outlet: 'Italian Journal of Pure and Applied Mathematics',
+          date: 'Accepted',
+      },
   ],
   skills: {
     'Mathematical Areas': ['Model Theory', 'Valued Fields', 'Hypercompositional Algebra', 'Mathematical Logic', 'Category Theory'],
+    'Research Interests': [
+        'Foundations of mathematics and mathematical logic',
+        'Hypercompositional algebra and valued field theory',
+        'Applications of AI and machine learning to mathematical research',
+        'Proof assistants and automated theorem proving',
+        'Constructive logic and type theory',
+    ],
     'Programming': ['Python', 'LaTeX', 'SQL', 'HTML/CSS', 'Git'],
-    'Mathematical Software': ['Agda', 'Lean', 'Coq', 'MATLAB', 'Sage', 'Excel'],
+    'Mathematical Software': ['Agda', 'Lean', 'Coq', 'Isabelle', 'MATLAB', 'Sage', 'Excel'],
     'AI/ML Familiarity': ['Experience with language models', 'Interest in automated theorem proving'],
+    'Research Tools': ['Citation management', 'Collaborative platforms', 'Web technologies'],
+    'Professional Service': ['Editorial Work', 'Peer Review', 'Conference Participation'],
     'Languages': ['Italian (Native)', 'English (Fluent)', 'Spanish (Fluent)', 'Slovenian (Basic)', 'Polish (Basic)'],
   },
   contact: {
